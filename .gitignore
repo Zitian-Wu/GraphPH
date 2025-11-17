@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+data/
+runs/
+runs_sim/
+runs_connectome/
+runs_v2/
+tabs/
+slurm/
+figs/
+*.npz
+*.npy
+*.csv
+*.tsv
+*.log
+
+# Real experiments / original notebooks (kept locally only)
+real_experiment/
+EOF
