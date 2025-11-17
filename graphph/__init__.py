@@ -18,6 +18,8 @@ from .h0_experiment import (
     save_experiment,
 )
 
+from . import h0h1_rings
+
 __all__ = [
     "ClassID",
     "SimMode",
@@ -36,4 +38,5 @@ __all__ = [
     "classify_with_class_Lambda",
     "fit_and_classify",
     "save_experiment",
+    "h0h1_rings",
 ]
