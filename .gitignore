@@ -1,4 +1,3 @@
-cat > .gitignore << 'EOF'
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
@@ -19,4 +18,4 @@ figs/
 
 # Real experiments / original notebooks (kept locally only)
 real_experiment/
-EOF
+toy_connectome_demo/
