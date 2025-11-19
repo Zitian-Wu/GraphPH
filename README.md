@@ -4,7 +4,7 @@ This archive contains the Python code used to generate the simulation and
 connectome(-like) experiments for the manuscript
 
 > **Graphical Model-based Inference on Persistent Homology**  
-> Z. Wu, A. Roy, L. Duan
+> Zitian Wu, Arkaprava Roy, Leo L. Duan
 
 The code is organized as a lightweight package (`graphph`) plus a set of
 Jupyter notebooks that reproduce the figures and numerical results.
