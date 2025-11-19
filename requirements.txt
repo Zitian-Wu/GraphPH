@@ -1,0 +1,21 @@
+# Core numerical + scientific stack
+numpy
+scipy
+pandas
+
+# Plotting
+matplotlib
+
+# Probabilistic modeling (HMC / NUTS)
+jax
+jaxlib
+numpyro
+
+# Topological data analysis
+gudhi
+
+# Small helper for text label adjustment in some plots
+adjustText
+
+# Optional: only needed if you want to load real connectome .rda files
+rdata
