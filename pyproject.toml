@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphph"
+version = "0.1.0"
+description = "Code accompanying the manuscript on graphical model-based inference on persistent homology."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Zitian Wu", email = "zitianwu@ufl.edu" }
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "pandas",
+  "matplotlib",
+  "jax",
+  "jaxlib",
+  "numpyro",
+  "gudhi",
+  "adjustText",
+]
+
+[project.optional-dependencies]
+# Only needed if loading real connectome .rda files
+realdata = ["rdata"]
+
+[tool.setuptools]
+packages = ["graphph"]
