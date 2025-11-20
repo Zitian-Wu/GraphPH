@@ -1,17 +1,17 @@
 # Code supplement for "Graphical Model-based Inference on Persistent Homology"
 
-This archive contains the Python code used to generate the simulation and
-connectome(-like) experiments for the manuscript
+This repo contains the Python code for the simulated experiments and
+data application in the manuscript
 
 > **Graphical Model-based Inference on Persistent Homology**  
 > Zitian Wu, Arkaprava Roy, Leo L. Duan
 
-The code is organized as a lightweight package (`graphph`) plus a set of
+We provde a lightweight package (`graphph`) and a set of
 Jupyter notebooks that reproduce the figures and numerical results.
 
 ---
 
-## 1. Installation
+## Installation
 
 The code has been tested with **Python 3.10+**.
 
